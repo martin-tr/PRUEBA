@@ -13,26 +13,68 @@
 
     <title>Primera Página Web</title><!-- título que se muestra en la pestaña del buscador -->
 
+<link rel="stylesheet" href="estilos.css"> <!-- con esto linkeo mi hoja de estilo en css - PRIMER MODO -->
+
+    <style> /* le estamos dando estilo a las etiquetas */
+
+h1{color: red;}/* le estoy dando color al t´titulo h1  - propiedad:valor - SEGUNDO MODO*/
+ 
+h2{color: forestgreen;}
+
+pre{color:chocolate}
+
+p{color: black;}
+
+    </style>
 
 </head>
 
 
 <body><!-- (cuerpo) - LO QUE VE EL USUARIO -  agrupa todos los contenidos del propio documento -->
 
-<h1>
-    Soy Martín, estoy aprendiendo a programar!!!
-</h1>    
+<header><!-- encabezado de mi página-->
+     <nav><!-- barra de navegación -->
+         <ul><!-- lista desordenada -->
+             <li>HOME</li><!-- elemntos de la lista -->
+             <li>VENTAS</li>
+         </ul>
+     </nav>
+ </header>
 
-<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente necessitatibus odio praesentium veritatis <a href="https://www.facebook.com/">Link Facebook</a> itaque quae aspernatur voluptate laudantium, dolorem quo consequatur magni velit facere illum iure quos, est, alias dignissimos.</p> 
-
-
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate <a href="ventas.html"> VENTAS </a> esse, est expedita eligendi enim laborum. Excepturi molestiae similique numquam qui, eaque molestias debitis eum perspiciatis doloribus magni quidem explicabo in.</p>  
+<main>
+    <h1 align="center"> 
+        SOY MARTÍN Y ESTOY APRENDIENDO A PROGRAMAR 
+    </h1><br>
+    <hr align=center width=50%><br><!-- agregue una linea -->
     
+    <h2 align="center"> <b><u><i> Bienvenidos </i></u></b></h2><br><!-- escribi bienvenidos en negrita, subrayado y en italica -->
+
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores iure, <b>repudiandae voluptas aspernatur velit nam maiores in numquam</b> ,<br> (aca le meti un salto en medio del párrafo) repellat neque quae omnis molestiae. Aliquam possimus fugit modi, illum id molestiae?</p>
+<br>
+<p>Lorem ipsum dolor sit amet consectetur <i>adipisicing</i> elit. Sapiente necessitatibus odio praesentium veritatis <a href="https://www.facebook.com/">Link Facebook</a> itaque quae aspernatur voluptate laudantium, dolorem quo consequatur magni velit facere illum iure quos, est, alias dignissimos.</p> 
+
+<br><!-- salto de linea -->
+<br><!-- mala practica, conviene usar CSS para hacer saltos y sepaparar lineas -->
+<br>
+
+<hr><!-- marca linea divisoria -->
+<pre>
+    La etiqueta pre, de preformateado, coloca
+    mi parrafo tal cual lo escribo
+    y no por dafault como sucede con la etiqueta <p></p>
+</pre>
+
+<hr>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate <a href="páginas/ventas.html"> VENTAS </a> esse, est expedita eligendi enim laborum. Excepturi molestiae similique numquam qui, eaque molestias debitis eum perspiciatis doloribus magni quidem explicabo in.</p>  
+ 
+<pre>
+    <i>Texto en Itálica</i><br>
+    <b>Texto en Negrita</b><br>
+    <u>Texto Subrayado</u><br>
+</pre>
+</main>
     
-
-
-
-
 </body>
 
 
